@@ -43,7 +43,7 @@ Elixir.extend('webpack', function(src, options, output, baseDir) {
       saveFiles = paths.output;
     }
 
-    this.log(paths.src, saveFiles);
+    //this.log(paths.src, saveFiles);
 
     return gulp.src(paths.src.path)
       .pipe(named())
